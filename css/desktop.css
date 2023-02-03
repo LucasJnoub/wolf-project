@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fira Sans;
+  margin: 5px;
+}
+.header {
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #141414;
+}
+
+.introduction-container{
+  position: relative;
+}
+
+.introduction-container {
+  height: 400px;
+  width: 1003px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.introduction-container h1 {
+  font-weight: 700;
+  font-size: 72px;
+  padding-bottom: 0px;
+  align-self: end;
+}
+
+.introduction-container h1::before{
+  position: absolute;
+  content: url('/img/detalhe.svg');
+  z-index: -1;
+  bottom: 280px;
+  right: 410px;
+}
+
+.introduction-container p {
+  padding: 0px;
+  align-self: center;
+  margin-left: 240px;
+}
+
+.middle-container{
+  width: 75%;
+  border: 1px solid red;
+  height: 662px;
+  margin: 0 auto;
+  display: flex;
+  gap: 176px;
+}
+
+.middle-container h1{
+  font-size: 144px;
+  line-height: 144px;
+  height: 100%;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700; 
+  color: #E0E0E0;
+  text-transform: uppercase; 
+  display: inline-block;
+  border: 1px solid blue;
+  
+}
+
+.middle-container p {
+  width:400px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.experience-per-year{
+  width:80%;
+  height: 140px;
+  background-color: red;
+  display: flex;
+}
