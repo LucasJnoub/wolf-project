@@ -126,13 +126,19 @@
     align-items: center;
     justify-items: start;
   }
- .footer::before{
-  content: '';
-  background:url(/img/detalhe.svg);
- }
+  .formacao::after{
+    content: '';
+    display: block;
+    background: url(/img/detalhe.svg);  
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    bottom: -50px;
+  }
   .ultima-coisa {
     padding-bottom: 50px;
     text-align: center;
     margin-right: 55px;
   }
+
 }

@@ -206,6 +206,7 @@ html {
   padding: 50px;
   display: flex;
   gap: 127px;
+  position: relative;
 }
 
 .formacao-title {
@@ -245,6 +246,7 @@ html {
   background: #000000;
   border-radius: 5px;
   position: relative;
+  z-index: -1;
 }
 
 .formacao-box::before {
@@ -326,4 +328,14 @@ footer{
   color: #8F8F8F;
   margin-top: 60px;
   margin-left: 50px;
+}
+
+.formacao::after{
+  content: '';
+  display: block;
+  background: url(/img/detalhe.svg);  
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  bottom: -50px;
 }
