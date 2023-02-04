@@ -289,3 +289,41 @@ html {
   color: #8F8F8F;
 }
 
+footer{
+  height: 100%;
+  width: 100%;
+  background: #000000; 
+ z-index: -1;
+}
+
+.footer-paragraph{
+  color:#CCCCCC;
+  width: 429px;
+  font-size: 24px;
+  height: 100%;
+  position: relative;
+}
+
+
+.contact{
+  color: #fff;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-paragraph,
+.contact{
+  margin-top: 200px;
+}
+
+.double-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ultima-coisa{
+  color: #8F8F8F;
+  margin-top: 60px;
+  margin-left: 50px;
+}

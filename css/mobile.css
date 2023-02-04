@@ -1,120 +1,138 @@
-
-@media (max-width:800px) {
- *{
-  box-sizing: border-box;
- }
- .navigation{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  
- }
- .navigation ul{
-  margin-left: 2px;
- }
- 
-  .introduction-container{
+@media (max-width: 800px) {
+  * {
+    box-sizing: border-box;
+  }
+  .navigation {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0 auto;    
+  }
+  .navigation ul {
+    margin-left: 2px;
+  }
+
+  .introduction-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
     width: 100%;
   }
 
-  .introduction-img{
-    align-self: center; 
+  .introduction-img {
+    align-self: center;
   }
 
-  .introduction-title{
+  .introduction-title {
     align-self: center;
     word-wrap: break-word;
     width: 100%;
   }
 
-  .middle-container{
+  .middle-container {
     display: flex;
     flex-direction: column;
   }
 
-  .div-experience{
-    width:300px;
+  .div-experience {
+    width: 300px;
     background: blue;
   }
 
-  .title-experience{
+  .title-experience {
     width: 100% !important;
     font-size: 50px !important;
-    word-wrap:normal !important;
+    word-wrap: normal !important;
     padding: 30px;
-        
   }
-  .exprience{
+  .exprience {
     border: 1px solid gray;
     width: 100%;
-    }
- 
-  .flex-inside-year{
+  }
+
+  .flex-inside-year {
     display: flex;
     flex-direction: column;
-  } 
-  .flex-inside-year{
+  }
+  .flex-inside-year {
     display: flex;
     flex-direction: column;
     position: relative;
   }
 
-  .insider-formacao-flex{
+  .insider-formacao-flex {
     display: flex;
     flex-direction: column;
   }
-  
-  .experience p:first-child{
-    max-width:100% ;
+
+  .experience p:first-child {
+    max-width: 100%;
     padding: 20px;
     margin: 0 auto;
     margin-top: 20px;
   }
- 
-  .occupation{
+
+  .occupation {
     display: none;
   }
-  .role-description{
+  .role-description {
     margin-left: 0;
   }
-  
-  .bikcraft::before{
-    content: 'Desenvolvedor Junior';
+
+  .bikcraft::before {
+    content: "Desenvolvedor Junior";
     position: absolute;
     top: 20px;
   }
 
-  .surf-bot::before{
-    content: 'Estagiário';
+  .surf-bot::before {
+    content: "Estagiário";
     position: absolute;
     top: 20px;
   }
 
-  .brafe::before{
-    content: 'Voluntário';
+  .brafe::before {
+    content: "Voluntário";
     position: absolute;
-    top:20px;
+    top: 20px;
   }
 
-  .formacao{
+  .formacao {
     display: flex;
     flex-direction: column;
     height: 100%;
     gap: 20px;
   }
-  .formacao-title{
+  .formacao-title {
     width: 100%;
     font-size: 50px;
     word-wrap: normal;
   }
 
-  .one-column-box{
+  .one-column-box {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
+  }
+
+  .footer-paragraph {
+    width: 100%;
+    height: 100%;
+  }
+  .double-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-items: start;
+  }
+ .footer::before{
+  content: '';
+  background:url(/img/detalhe.svg);
+ }
+  .ultima-coisa {
+    padding-bottom: 50px;
+    text-align: center;
+    margin-right: 55px;
   }
 }
