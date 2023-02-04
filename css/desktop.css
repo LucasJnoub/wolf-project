@@ -84,16 +84,15 @@ html {
   height: 662px;
   margin: 0 auto;
   margin-top: 50px;
-  display: flex;
-  gap: 100px;
-
+  display: flex;  
+  /* border: 1px solid red; */
   height: 100%;
 }
 
 .middle-container h1 {
   font-size: 144px;
   line-height: 144px;
-  width: 100%;
+  width: 30%;
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
@@ -101,7 +100,7 @@ html {
   text-transform: uppercase;
   display: inline-block;
   word-wrap: break-word;
-  height: 100%;
+
 }
 
 .middle-container p {
