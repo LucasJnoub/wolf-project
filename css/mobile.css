@@ -1,22 +1,104 @@
-/* @media  (max-width:756px){
 
-    .middle-container{
+@media (max-width:1000px) {
+ *{
+  box-sizing: border-box;
+ }
+ .navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+ }
+ .navigation ul{
+  margin-left: 2px;
+ }
+ 
+  .introduction-container{
     display: flex;
     flex-direction: column;
-    height: 2000px;   
-    background-color: blue;
+    gap: 20px;
+    margin: 0 auto;    
+    width: 100%;
   }
 
-  .middle-container h1{
-    font-size: 52px;
+  .introduction-img{
+    align-self: center; 
   }
-}
 
+  .introduction-title{
+    align-self: center;
+    word-wrap: break-word;
+    width: 100%;
+  }
 
-@media (max-width: 890px) {
-  .middle-container {
+  .middle-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-experience{
+    width:100%;
+  }
+  .exprience{
+    border: 1px solid gray;
+    width: 100%;
+  }
+   .experience-description{
+    border: 1px solid blue;
+    width: 100%;
+  }
+   .experience-description p{
+    text-align: left;
+    border: 1px solid red;
+    width: 100%;
+    background-color: red;
+  } 
+
+  .flex-inside-year{
+    display: flex;
+    flex-direction: column;
+  } 
+  .flex-inside-year{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .experience p:first-child{
+    max-width:100% ;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+ 
+  .occupation{
+    display: none;
+  }
+  .role-description{
+    margin-left: 0;
+  }
+  
+  .bikcraft::before{
+    content: 'Desenvolvedor Junior';
+    position: absolute;
+    top: 20px;
+  }
+
+  .surf-bot::before{
+    content: 'Estagiário';
+    position: absolute;
+    top: 20px;
+  }
+
+  .brafe::before{
+    content: 'Voluntário';
+    position: absolute;
+    top:20px;
+  }
+
+  .formacao{
     display: flex;
     flex-direction: column;
     height: 100%;
   }
-} */
+}
