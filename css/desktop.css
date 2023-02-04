@@ -246,14 +246,9 @@ html {
   background: #000000;
   border-radius: 5px;
   position: relative;
-  z-index: -1;
+
 }
 
-.formacao-box::before {
-  content: url(/img/Rectangle-31.svg);
-  position: absolute;
-  left: -7px;
-}
 .diploma {
   color: #fff;
   margin-bottom: 40px;
