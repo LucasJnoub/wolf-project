@@ -232,6 +232,7 @@ html {
  .insider-formacao-flex {
   display: flex;
   gap: 30px;
+ 
 }
 .white {
   color: #fff;
@@ -246,9 +247,14 @@ html {
   background: #000000;
   border-radius: 5px;
   position: relative;
-
+ 
 }
 
+.formacao-box::before {
+  content: url(/img/Rectangle-31.svg);
+  position: absolute;
+  left: -7px;
+}
 .diploma {
   color: #fff;
   margin-bottom: 40px;
