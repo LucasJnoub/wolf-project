@@ -1,0 +1,22 @@
+@media  (max-width:756px){
+
+    .middle-container{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;   
+    background-color: blue;
+  }
+
+  .middle-container h1{
+    font-size: 52px;
+  }
+}
+
+
+@media (max-width: 890px) {
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
