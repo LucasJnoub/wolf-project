@@ -1,0 +1,7 @@
+@media(min-width: 874px) and (max-width:1104px){
+
+  .formacao{
+    display: flex;
+    gap: 0px;
+  }
+}

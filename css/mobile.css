@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 873px) {
   * {
     box-sizing: border-box;
   }
@@ -32,11 +32,11 @@
   .middle-container {
     display: flex;
     flex-direction: column;
+    gap: 20px ;
   }
 
   .div-experience {
     width: 300px;
-    background: blue;
   }
 
   .title-experience {
@@ -45,8 +45,19 @@
     word-wrap: normal !important;
     padding: 30px;
   }
-  .exprience {
-    border: 1px solid gray;
+  .experience {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .experience-paragraph{
+    align-self:start;  
+  }
+
+  .experience p:first-child{
+    margin: 0;
+    padding:5px;
+    word-wrap: break-word;
     width: 100%;
   }
 
@@ -65,12 +76,7 @@
     flex-direction: column;
   }
 
-  .experience p:first-child {
-    max-width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
+ 
 
   .occupation {
     display: none;
@@ -112,7 +118,6 @@
   .one-column-box {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
   }
 
   .footer-paragraph {
@@ -146,4 +151,28 @@
   }
   
 
+}
+
+
+@media(max-width:328px){
+  .middle-container p:nth-child(2){
+    margin-top:25px;
+  }
+
+  .title-experience{
+    font-size: 30px !important;
+  }
+
+  .navigation ul{
+    display: flex;
+    flex-direction: column ;
+  }
+
+  .formacao-title{
+    font-size: 30px;
+  }
+
+  .contact{
+    font-size: 20px;
+  }
 }
